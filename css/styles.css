@@ -1,0 +1,147 @@
+/*########################### Types ############################*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Permanent Marker', Arial, sans-serif;
+  font-size: 5.625rem;
+  line-height: 0.8;
+}
+
+h2 {
+  font-family: 'Permanent Marker', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Permanent Marker', Arial, sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #E4DCCF;
+  border-width: 8px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+a {
+  color: black;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 10px 8px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+/*########################### Classes ############################*/
+
+.top-container {
+  background-color: #ABC9FF;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  background-color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #90C8AC;
+  padding: 50px 0 20px;
+}
+
+.cloud1 {
+  width: 180px;
+  position: absolute;
+  right: 130px;
+  top: 100px;
+}
+
+.cloud2 {
+  width: 260px;
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+}
+
+.city {
+  width: 300px;
+  position: relative;
+  bottom: -22px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ABC9FF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  bottom: 50px;
+}
+
+.btn:hover {
+  background: #FAC213;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 45px;
+}
+
+.contact-message {
+  margin: 40px auto 100px;
+}
+
+.copy-write {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+
+/*########################### ID's ############################*/
+
+#profile-picture {
+  width: 150px;
+  margin-top: 100px;
+  position: relative;
+  left: 10px;
+}
+
+#prototype {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 80%;
+}
+
+#burger {
+  width: 250px;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
